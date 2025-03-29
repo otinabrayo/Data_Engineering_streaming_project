@@ -2,6 +2,7 @@
 
 ## Overview
 
+
 This project is designed for real-time data streaming using Kafka. It fetches user data from the **UserMe API**, processes it using Python, and streams it via Kafka for further consumption.
 
 Downside part was the configuration of docker hardcoding the components to match with the confluent network and services running concurrently. It all was a success and i gained more knowledge about how they depend on each other.
